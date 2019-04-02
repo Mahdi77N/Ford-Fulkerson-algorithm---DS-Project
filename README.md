@@ -21,9 +21,12 @@ And this is how the code works:
 - Then it gets the number of source and sink nodes from client
 - At the end it runs the ford-flukerson function and shows up the paths to reach the max-flow in the graph
 ```
-The above implementation of Ford Fulkerson Algorithm is called Edmonds-Karp Algorithm. 
-The idea of Edmonds-Karp is to use BFS in Ford Fulkerson implementation as BFS always picks a path with minimum number of edges. 
-When BFS is used, the worst case time complexity can be reduced to O(VE2). 
-The above implementation uses adjacency matrix representation though where BFS takes O(V2) time, 
-the time complexity of the above implementation is O(EV3).<br/>
-For better understanding of the algorithm you can watch [this video](https://www.youtube.com/watch?v=hmIrJCGPPG4/) on [youtube](https://www.youtube.com/).
+My implementation of ford-fulkerson Algorithm is called Edmonds-Karp Algorithm.
+<br/>
+The idea of Edmonds-Karp is to use BFS in ford-fulkerson implementation as BFS always picks a path with minimum number of edges.
+<br/>
+When BFS is used, the worst case time complexity can be reduced to O(VE2).
+<br/>
+My implementation uses adjacency matrix representation though where BFS takes O(V2) time, 
+the time complexity of my implementation is O(EV3).<br/>
+<br/>For better understanding of the algorithm you can watch [this video](https://www.youtube.com/watch?v=hmIrJCGPPG4/) on [youtube](https://www.youtube.com/).
